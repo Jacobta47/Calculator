@@ -1,4 +1,5 @@
 print("lame calculator")
 amount = float(input('principal amount ?'))
 base = float(input('secondary amount ?'))
-print(amount + base)
+total=amount-base/100
+print(total)
